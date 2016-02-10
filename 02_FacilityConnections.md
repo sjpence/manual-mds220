@@ -15,6 +15,7 @@ Listed below are specifications and support requirements for the **UNIT**DESIGN 
 ### Compressed Air:
 
 - MDS-100/200/210: 40 CFM
+- MDS-220: 5 CFM
 - ALT-100/200: 40 CFM (with optional air-knife)
 
 Filtered and dried, 90-120 psi, intermittent during cycle)
@@ -25,16 +26,18 @@ Filtered and dried, 90-120 psi, intermittent during cycle)
   Parameter                  | MDS-100   | MDS-200   | MDS-210   | MDS-220   | ALT-100   | ALT-200
   ---------------------------|-----------|-----------|-----------|-----------|-----------|----------
   POWER (208-240VAC, 1PH)    | 23 A      | 45 A      | 45 A      | 45 A      | 23 A      | 45 A
-  SIZE (LxWxH)”              | 60x30x48  | 87x30x48  | 87x30x48  | 87x30x48  | 60x30x48  | 87x30x48
+  SIZE (LxWxH) (in)          | 60x30x48  | 87x30x48  | 87x30x48  | 87x30x48  | 60x30x48  | 87x30x48
   WEIGHT (lbs) – Inc. Solder | 550       | 750       | 750       | 750       | 550       | 750
-  SOLDER CAPACITY (lbs)      | 150       | 150       | 150       | 150       | 150       | 150
+  SOLDER CAPACITY (lb)       | 150       | 150       | 150       | 150       | 150       | 150
   MAX LEAD LENGTH            | 3/8”      | 3/8”      | 1 ½”      | 1 ½”      | 1 ¾”      | 1 ¾”
-  AIR SUPPLY (cfm)           | 40        | 40        | 40        | 40        | 40 opt.   | 40 opt.
-  MAX SOLDER TEMP.           | 600F      | 600F      | 600F      | 600F      | 600F      | 600F
+  AIR SUPPLY (cfm)           | 40        | 40        | 40        | 5         | 40 opt.   | 40 opt.
+  MAX SOLDER TEMP            | 600F      | 600F      | 600F      | 600F      | 600F      | 600F
 
 ## VENTILATION
 
 A 500 CFM ducted fan is suggested as the minimum for the MDS-100 and is advised for all other units. A fume hood over the entire machine makes a nice installation. Many water-soluble (OA) fluxes smoke excessively and a minimum of 1,200 CFM is recommended for these applications.
+
+The MDS-220 includes an extra ventilation port to assist in containing any over-spray from the fluxer nozzle.
 
 ## SUGGESTED MACHINE PLACEMENT
 
