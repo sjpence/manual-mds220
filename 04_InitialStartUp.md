@@ -5,15 +5,15 @@
 
 1. Turn the main power switch, located on the power module cover, to the ON position. The control module should power up and the following display should be visible on the touchscreen.
 
-    <!--Image of initial startup main menu w/ homing popup visible-->
+    ![Main Menu - Homing Required](/media/screen_MainMenu_HomeReq.png)
     
 1. Whenever the machine is powered on, the home position of the spray fluxer actuator needs to be set. At startup a popup will remind the operator. Press the OK button on the popup window. The display will shift to the Spray Fluxer Status screen.
 
-    <!--Image of spray fluxer status screen-->
+    ![Spray Fluxer Status](/media/screen_SprayFluxer_Status.png)
     
 1. Press the Home button to send the spray fluxer to its home position. The actuator will retain its home position while it is powered on. Press the Back arrow in the upper left of the screen to return to the Main Menu.
 
-    <!--Image of main menu without popup-->
+    ![Main Menu - Solder Not At Temperature](/media/screen_MainMenu_NotReady.png)
 
     > In order for the carriage to run, the START button on the touchscreen must be green. The START button will change from gray to green once the solder pot reaches the set temperature the first time after it has been turned on. The ABORT button on the touchscreen will always bring the carriage back to the home position regardless of the current solder pot temperature. 
 
@@ -34,15 +34,15 @@ In order to initial charge the solder pot and check the solder level, a initial 
 
 1. Press the Recipe button in the upper left corner of the Main Menu screen. The Recipe Summary and Selection screen will appear.
 
-    <!--Recipe screen-->
+    ![Recipe Summary and Selection](/media/screen_Recipe_Current.png)
 
 1. Press the Edit button at the bottom of the screen to change the Recipe parameters.
     
-    <!--Recipe Edit screen-->
+    ![Recipe Editing](/media/screen_Recipe_Edit.png)
     
 1. Pressing the number displayed next to each parameter will cause the keypad popup to appear. They keypad can be used to edit the parameters. The left and right arrow keys can be used to cycle through all of the parameters diplayed. Minimum and maximum vaules are diplayed at the bottom of the keypad.
 
-    <!--Recipoe edit with keypad-->
+    ![Parameter Entry Keypad](/media/screen_Recipe_Keypad.png)
 
 1. When all parameters have been edited, press the enter key to close the window.
 
@@ -76,6 +76,8 @@ Once the solder pot is fully charged with solder (.075" - .100" from the top), y
 
     > Note: The machine will not operate if the START button is not green, signifying that the solder is at the correct temperature. Also if the carriage is not at its home position the cycle will not start.
 
+    ![Main Menu - Ready](/media/screen_MainMenu_Ready.png)
+
 1. Press the green START button. If the START button is green and the unit does not operate, simply lift the end of the carriage and push slightly forward, then press the red ABORT button. This should automatically bring the carriage to the start or home position. If the unit will still not cycle, please refer to the Troubleshooting Section of the manual.
 
 1. During the solder immersion, set for 10.0 seconds, observe the solder level in relation to the PCB carrier fingers. The solder level should be at the center of the “V” shaped, board gripping sections of the fingers in the corners of the carrier.
@@ -103,13 +105,20 @@ The next step is to fill and adjust the tanks and regulators in the lower sectio
 > CAUTION: Before opening the flux or purge tanks, be sure that the main air pressure to the machine has been turned off.
 
 1. Turn off the main air supply using the Main Air Reulator mounted to the rear of the machine or an external sutoff valve.
+
 1. Release the lid latches and open both tanks
+
 1. Fill the larger flux tank with up to 2 gallons of the desired flux. Be sure that the output tube is submerged below the surface of the flux. Close and latch the lid.
+
 1. Fill the smaller purge tank with up to 1 gallon of the specified thinner for the flux being used. Be sure that the output tube is submerged below the surface of the flux. Close and latch the lid.
+
 1. Turn on the main air supply.
+
 1. Set the regulators to the desired liquid feed and atomizing pressures or use the factory settings. Explanations of the effects of each regulator are found in the Operation section of the manual.
-1. Press the green START button to cycle the machine. 
+1. Press the green START button to cycle the machine.
+
 1. Check that as the carraige passes over the fluxer the spray nozzle should cycle back and forth under the carriage. The flux or thinner and the atomizing air should flow during the fluxing process.
+
 1. Make sure the exhaust ssytem is capturing any over-spray.
 
 ## SETUP SUMMARY
