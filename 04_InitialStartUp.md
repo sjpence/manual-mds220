@@ -5,15 +5,15 @@
 
 1. Turn the main power switch, located on the power module cover, to the ON position. The control module should power up and the following display should be visible on the touchscreen.
 
-    ![Main Menu - Homing Required](/media/screen_MainMenu_HomeReq.png)
+    ![Main Menu - Homing Required](/media/screen_mainmenu_homereq.png)
     
 1. Whenever the machine is powered on, the home position of the spray fluxer actuator needs to be set. At startup a popup will remind the operator. Press the OK button on the popup window. The display will shift to the Spray Fluxer Status screen.
 
-    ![Spray Fluxer Status](/media/screen_SprayFluxer_Status.png)
+    ![Spray Fluxer Status](/media/screen_sprayfluxer_status.png)
     
 1. Press the Home button to send the spray fluxer to its home position. The actuator will retain its home position while it is powered on. Press the Back arrow in the upper left of the screen to return to the Main Menu.
 
-    ![Main Menu - Solder Not At Temperature](/media/screen_MainMenu_NotReady.png)
+    ![Main Menu - Solder Not At Temperature](/media/screen_mainmenu_notready.png)
 
     > In order for the carriage to run, the START button on the touchscreen must be green. The START button will change from gray to green once the solder pot reaches the set temperature the first time after it has been turned on. The ABORT button on the touchscreen will always bring the carriage back to the home position regardless of the current solder pot temperature. 
 
@@ -34,15 +34,15 @@ In order to initial charge the solder pot and check the solder level, a initial 
 
 1. Press the Recipe button in the upper left corner of the Main Menu screen. The Recipe Summary and Selection screen will appear.
 
-    ![Recipe Summary and Selection](/media/screen_Recipe_Current.png)
+    ![Recipe Summary and Selection](/media/screen_recipe_current.png)
 
 1. Press the Edit button at the bottom of the screen to change the Recipe parameters.
     
-    ![Recipe Editing](/media/screen_Recipe_Edit.png)
+    ![Recipe Editing](/media/screen_recipe_edit.png)
     
 1. Pressing the number displayed next to each parameter will cause the keypad popup to appear. They keypad can be used to edit the parameters. The left and right arrow keys can be used to cycle through all of the parameters diplayed. Minimum and maximum vaules are diplayed at the bottom of the keypad.
 
-    ![Parameter Entry Keypad](/media/screen_Recipe_Keypad.png)
+    ![Parameter Entry Keypad](/media/screen_recipe_keypad.png)
 
 1. When all parameters have been edited, press the enter key to close the window.
 
@@ -76,7 +76,7 @@ Once the solder pot is fully charged with solder (.075" - .100" from the top), y
 
     > Note: The machine will not operate if the START button is not green, signifying that the solder is at the correct temperature. Also if the carriage is not at its home position the cycle will not start.
 
-    ![Main Menu - Ready](/media/screen_MainMenu_Ready.png)
+    ![Main Menu - Ready](/media/screen_mainmenu_ready.png)
 
 1. Press the green START button. If the START button is green and the unit does not operate, simply lift the end of the carriage and push slightly forward, then press the red ABORT button. This should automatically bring the carriage to the start or home position. If the unit will still not cycle, please refer to the Troubleshooting Section of the manual.
 

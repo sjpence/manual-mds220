@@ -1,34 +1,31 @@
 
 # OPERATION
 
-## MACHINE PARAMETERS
+## PROCESS PARAMETERS
 
-There are an infinite variety of possible parameter sets for the **UNIT**DESIGN MDS Soldering and ALT Tinning Machines.
+There are an infinite variety of possible parameter sets for the **UNIT**DESIGN MDS-220 Soldering System.
 
-We will start with a generic parameter set which generally works well on most types of boards. We recommend the following parameters for rosin, water soluble (OA) and No-Clean Fluxes. NCFs require more dwell time at the preheat stage and less dwell time in the solder. Water soluble fluxes parameter settings fall between rosin and NCFs. A water carrier flux will take a longer preheat dwell than an alcohol based flux. The other parameters will be similar to the alcohol based version of that flux.
+We will start with a generic parameter set which generally works well on most types of boards. We recommend the following parameters for water soluble (OA) and No-Clean Fluxes with lead based solder. For lead-free solders, use the solder temperature recommeded by the solder vendor for the specific alloy. NCFs require more dwell time at the preheat stage and less dwell time in the solder. A water carrier flux will take a longer preheat dwell than an alcohol based flux. The other parameters will be similar to the alcohol based version of that flux.
 
-  Parameter       | MDS-200 | MDS-200 | MDS-200
-  ----------------|---------| --------| ------------
-  Flux Type       | Rosin   | OA      | Low-Solids
-  Flux Delay      | 5 s     | 5 s     | 10 s
-  Preheat SP      | 650 °F  | 650 °F  | 650 °F
-  Preheat Dwell   | 20 s    | 25 s    | 30 s
-  Solder SP       | 500 °F  | 500 °F  | 500 °F
-  Solder Dwell    | 3.5 s   | 3.0 s   | 1.5 s
-  Exit Speed      | 12      | 12      | 18
+  Parameter       | MDS-220 | MDS-220
+  ----------------|---------| ------------
+  Flux Type       | OA      | Low-Solids
+  Flux Delay      | 2 s     | 2 s
+  Preheat SP      | 650 °F  | 650 °F
+  Preheat Dwell   | 25 s    | 30 s
+  Solder SP       | 500 °F  | 500 °F
+  Solder Dwell    | 3.0 s   | 1.5 s
+  Exit Speed      | 12      | 18
 
-## PROGRAMMING
+## OPERATOR INTERFACE OVERVIEW
 
-Using the touchscreen interface of the control module, the operator can set, change, store in memory or recall all of the soldering parameters described above. The touchscreen is the central operation point for all of the MDS Soldering and ALT Tinning Machines. The screens shown in this section of the manual are from the MDS-200 Soldering Machine, but a screen by screen reference for all of the machines can be found in Appendix B.
+Using the touchscreen interface of the control module, the operator can set, change, store in memory or recall all of the soldering parameters described above. The touchscreen is the central operation point for all of the MDS Soldering and ALT Tinning Machines.
 
-The main menu screen display:
-
-![](/media/image13.png)
+![Main Menu - Solder Not At Temperature](/media/screen_mainmenu_notready.png)
 
 Information displayed:
-
-- Current Date and Time
-- Elapsed Time of Previous Cycle
+- Currently Selected Recipe Number
+- Current System Status
 - Preheat Temperature - Current / Set
 - Solder Temperature - Current / Set
 
@@ -37,10 +34,13 @@ Available Control Buttons:
 - **START** - Starts the soldering cycle. (Turns green when solder is up to temperature)
 - **ABORT** - Stops the soldering cycle and returns carriage to the home position.
 - **Preheat On/Off** - Turns on and off the Radiant Panel Preheater.
-- **Current Recipe** - Displays the parameter set currently in memory.
-- **Recipe Setup** - Allows the operator to recall recipes previously saved and to setup new recipes.
-- **Options** - Switches to the Options screen to change certain machine settings.
-- **Monitor** - Switches to the Monitor screen in order to view the countdown timers that run during the soldering cycle.
+- **Solder On/Off** - Turns on and off the Solder Pot heater.
+- **Recipe: #** - Switches to the Recipe Summary and Selection screen.
+- **Spray Fluxer** - Switches to the Spray FLuxer screen to set spray fluxer parameters.
+- **Settings** - Switches to the Settings screen to change certain machine settings.
+- **Options** - Switches to the Options screen in order to manually trigger devices and check sensor status.
+
+## SELECTING A PROCESS RECIPE
 
 In order to change the currently selected recipe or to setup a new recipe, the Recipe Setup button is pressed. The following screen appears:
 
