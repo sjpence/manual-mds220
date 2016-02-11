@@ -115,11 +115,12 @@ The next step is to fill and adjust the tanks and regulators in the lower sectio
 1. Turn on the main air supply.
 
 1. Set the regulators to the desired liquid feed and atomizing pressures or use the factory settings. Explanations of the effects of each regulator are found in the Operation section of the manual.
+
 1. Press the green START button to cycle the machine.
 
 1. Check that as the carraige passes over the fluxer the spray nozzle should cycle back and forth under the carriage. The flux or thinner and the atomizing air should flow during the fluxing process.
 
-1. Make sure the exhaust ssytem is capturing any over-spray.
+1. Make sure the exhaust system is capturing any over-spray.
 
 ## SETUP SUMMARY
 
