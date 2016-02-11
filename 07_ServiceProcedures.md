@@ -5,29 +5,15 @@
 
 1. Turn machine off.
 
-1. Disconnect the three (3) motor retract cables and the optics retract cable by twisting on the center of the connectors. (The motor retract cables are color coded for ease of replacement.)
+1. Disconnect the larger motor retract cable and the smaller optics retract cable by pressing on the center release lever of the connectors.
 
-1. Remove the retract chain mounting screw.
+1. Remove the retract chain mounting screws.
 
 1. Lift carriage module from rails.
 
 1. Place upside-down on a flat surface. (This protects the magnetic sensor on the underside of the carriage.)
 
 1. To replace, reverse procedure.
-
-## AIRSTONE REPLACEMENT
-
-1. Disconnect tube connecting bulkhead fitting (red collar) to the flux tank. This should be done to protect the regulator.
-
-1. Disconnect airstone tube from fitting on inside wall of flux tank.
-
-1. Holding the airstone tube and the foam funnel, lift and invert the funnel.
-
-1. Lift tubing end of airstone about two inches above the funnel. Be careful not to bend/break the fitting.
-
-1. Press the other end of the airstone out of the funnel.
-
-1. To Replace, reverse procedure. Be sure not to touch the body of the airstone with your bare fingers, as body oil will clog the airstone’s pores.
 
 ## SKIMMER BLADE REPLACEMENT
 
@@ -101,18 +87,18 @@
 
 ## HEATER AUTOTUNING
 
-When a major change in heater (preheat or solder) set point is made (greater than 75°F) it may be necessary to re-tune the heaters to optimize their performance at the new set point. The Solder Pot Heater is tuned at the factory to 500°F and the Preheater to 700°F.
+When a major change in heater (preheat or solder) set point is made (greater than 75°F) it may be necessary to re-tune the heaters to optimize their performance at the new set point. The Solder Pot Heater is tuned at the factory to 500°F and the Preheater to 650°F.
 
-1. Change Recipe so the desired set point is displayed on the Main Menu Screen.
+1. Change the recipe so the desired set point is displayed on the Main Menu screen.
 
-1. If the Preheater is being tuned, press the On button on the Main Menu Screen to turn on the Preheat Elements.
+1. Make sure the heater being tuned is turned on using the toggle switches on the Main Menu.
 
-1. Press the Options button on the Main menu to bring up the Options Screen.
+1. On the Main Menu, press the Settings button, then press Heaters along the left side to access the Autotuning Control sceen.
 
-1. Press the Autotune Heaters button to bring up the Autotuning Screen.
+    ![Heater Autotuning](/media/screen_settings_heaters.png)
 
-1. Press the Start button for the heater you wish to tune. Only perform one autotuning function at a time. If you wish to tune both the Solder Heater and the Preheater, tune the Solder Pot Heater first, then tune the Preheater.
+1. Press the toggle switch for the heater you wish to tune. Only perform one autotuning function at a time. If you wish to tune both the Solder Heater and the Preheater, tune the Solder Pot Heater first, then tune the Preheater.
 
-1. Once the On light on the Autotuning Screen goes off the procedure is finished and the machine is ready for operation at the new set point.
+1. Once the toggle resets to off on the Autotuning Screen, the procedure is finished and the machine is ready for operation at the new set point.
 
-The autotuning procedure can take 1 - 2 hours when tuning the Solder Pot Heater. During this period the displayed solder temperature will not be accurate. If you wish to monitor the autotuning process, you will need to use a separate thermocouple.
+The autotuning procedure can take 1 - 2 hours when tuning the Solder Pot Heater.
