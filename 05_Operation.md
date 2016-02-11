@@ -109,11 +109,9 @@ A specific explanation of the soldering parameters follows:
 
 ### Flux Delay
 
-*Parameter Range: 0 - 999 sec.*
+*Parameter Range: 0 - 99 sec.*
 
-*MDS-100/200:* The flux delay is the amount of time that the machine waits before starting to move the carriage over the fluxer. The fluxer needs time to build the foam head to a constant and stable level. Since the carriage waits to move across the fluxer, there is no need to run the flux constantly, therefore the amount of thinner evaporation is reduced tremendously. Because different flux types take different amounts of time for the foam head to stabilize, this parameter is adjustable. Typically the flux delay is 5 seconds for rosin and water soluble fluxes, and 10 seconds for no-clean fluxes.
-
-*ALT-100/200,MDS-210:* The flux delay is the amount of time that the carriage waits after raising the boards or components out of the flux before starting to move over the high pressure air-knife. This delay allows some of the excess flux to drip back into the recirculating flux tank. Typically this delay is 2-5 seconds, with rosin fluxes having a longer delay because of their higher viscosity.
+The flux delay is the amount of time that the machine waits before starting to move the carriage over the fluxer. This delay allows the spray nozzle atomising air supply yo build pressure before allowing the flux to spray. Typically this delay is 2-3 seconds.
 
 ### Preheat Temperature Set Point
 
@@ -135,13 +133,11 @@ Water based fluxes require a longer preheat dwell time due to the lower volatili
 
 Almost always a longer preheat dwell time will increase soldering quality. However, a longer preheat will reduce the daily production potential of the soldering machine. Therefore, start with higher times and reduce them slowly, while observing the quality of the soldered PCBs.
 
-The MDS-210 typically requires more preheat time than the MDS-100/200 due to the larger amount of flux applied by the recirculating flux system as opposed to the foam fluxer.
-
 ### Solder Temperature Set Point
 
 *Parameter Range: 0 - 750°F*
 
-The temperature selected for Sn60 or Sn63 solder should fall into the 480 to 520°F range. Set temperatures for lead-free alloys are typically 600°F and higher. Using a lower temperature means increasing solder dwell times to avoid cold joints, but this has a negative side to it. Longer dwell times mean that the board is being exposed for long durations to possibly damaging heat. Higher solder temperatures also have a downside as they will accelerate dross formation, and possibly could damage the PCB or components. (Dross is the gray tin-lead oxide layer formed on the top of the solder pool.) Overall, higher solder temperatures allow more drainage during the solder exit.
+The temperature selected for Sn63 solder should fall into the 480 to 520°F range. Set temperatures for lead-free alloys have a greater range depending on the alloy used. The solder manufacturer should be consulted for the proper temperature. Using a lower temperature means increasing solder dwell times to avoid cold joints, but this has a negative side to it. Longer dwell times mean that the board is being exposed for long durations to possibly damaging heat. Higher solder temperatures also have a downside as they will accelerate dross formation, and possibly could damage the PCB or components. (Dross is the gray oxide layer formed on the top of the solder pool.) Overall, higher solder temperatures allow more drainage during the solder exit.
 
 ### Solder Dwell Time
 
@@ -157,7 +153,7 @@ A better method to determine optimum solder time for a new board is to locate th
 
 *Parameter Range: 1 - 50*
 
-This is a relative number that determines the cam rotation speed during the exit sequence from the solder bath. In an MDS Soldering Machine, one end of the PCB is lifted first to allow for solder drainage, or peel-back, before the other end is lifted. This process is critical to prevent icicling or bridging. In an ALT Tinning Machine the two cams rotate together and therefore bring the components vertically out of the solder.
+This is a relative number that determines the cam rotation speed during the exit sequence from the solder bath. In an MDS Soldering Machine, one end of the PCB is lifted first to allow for solder drainage, or peel-back, before the other end is lifted. This process is critical to prevent icicles or bridging. 
 
 The higher the exit speed number, the faster the PCB exit speed. You won’t notice any speed difference between adjoining settings, but there will be a quality difference. There is a noticeable difference between numbers several digits apart.
 
@@ -170,12 +166,6 @@ The higher the exit speed number, the faster the PCB exit speed. You won’t not
 ### CARRIERS
 
 To increase productivity, production houses should obtain multiple carriers. Determine the number of boards to be run per load based on the amount of time the operator spends to unload and then load a carrier. High production numbers of small boards are achieved by using three carriers and two operators. The operators could also clean the newly soldered boards, increasing productivity.
-
-### AIR PRESSURE
-
-The air pressure for the foam fluxer seems to run the best with a 5-10 psi setting for rosin fluxes and a 10-15 psi setting for no-clean fluxes. By lowering the air pressure, the foam head height is lowered. Increasing the pressure only raises the foam head to a certain point. After that it begins to break up the foam head by forming large bubbles. This can cause flux voids, areas where no flux was applied to the board. The best foam head has the smallest bubbles possible for a given head height.
-
-The air-knife system typically runs on about 20 psi. Higher pressures will help the flux distribution and push more flux through the holes. However, be sure to check that the air does not deflect off of the board and disturb the foam head on the fluxer. If this occurs, turn down the air pressure on the air-knife regulator and also increase the angle the air-knife blows by twisting it to a more vertical position.
 
 ### COMPONENT ORIENTATION
 
@@ -214,26 +204,4 @@ Most soldering problems are caused by contamination of the components or boards.
 ### SOLDER PURITY
 
 At **UNIT**DESIGN we recommend using a high purity solder for all operations. We also recommend having the solder bath analyzed at regular intervals to check for contamination. Avoid contaminants such as parts made of zinc or brass, and gold plated parts. The worst contaminants tend to be aluminum, cadmium and zinc.
-
-### FLUX AND AIRSTONE
-
-Proper care and maintenance of the flux is required to maintain consistent soldering results.
-
-Take note of the specific gravity requirements found on the flux data sheet provided by the flux manufacturer. By using the hydrometer included with the machine, you can measure the current flux density and add thinner to bring it into the proper range.
-
-All fluxes have a maximum working life. Most flux companies consider 40 hours of use to be the life span of the flux. Contact your flux supplier or manufacturer for additional information on fluxes.
-
-Not all fluxes are compatible with all soldering applications. Some fluxes work well on one board but don’t produce good results on another. Experience and testing will determine which brand and type of flux works the best for a given application.
-
-The air supply for the foam fluxer needs to be clean and dry. Compressed air normally carries a mixture of oil and water suspended in it. This mixture will cause the airstone to become plugged rather quickly. The flux system regulator is equipped with a filter, but this is not enough to remove a larger amount of water from the compressed air supply.
-
-If you need to change the flux in the tank to a different type, you need to completely clean out both the flux tank and airstone. We recommend using isopropyl alcohol for this cleaning procedure. You may find it helpful to drain the flux tank with air running through the airstone. This helps clear any flux located inside of the stone.
-
-CAUTION:
-
-DO NOT ALLOW FLUX TO DRY IN THE AIRSTONE!
-
-THIS WILL RUIN THE STONE.
-
-**UNIT**DESIGN sells extra flux tanks for those users requiring more than one type of flux. This allows a flux change to be made in less than one minute by simply switching flux tanks.
 
