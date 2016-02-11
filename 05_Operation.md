@@ -36,37 +36,33 @@ Available Control Buttons:
 - **Preheat On/Off** - Turns on and off the Radiant Panel Preheater.
 - **Solder On/Off** - Turns on and off the Solder Pot heater.
 - **Recipe: #** - Switches to the Recipe Summary and Selection screen.
-- **Spray Fluxer** - Switches to the Spray FLuxer screen to set spray fluxer parameters.
+- **Spray Fluxer** - Switches to the Spray Fluxer screen to set spray fluxer parameters.
 - **Settings** - Switches to the Settings screen to change certain machine settings.
 - **Options** - Switches to the Options screen in order to manually trigger devices and check sensor status.
 
 ## SELECTING A PROCESS RECIPE
 
-In order to change the currently selected recipe or to setup a new recipe, the Recipe Setup button is pressed. The following screen appears:
+In order to view the parameters of the currently selected recipe or select a different recipe, press the Recipe button in the upper left corner of the Main Menu screen. The Recipe Summary and Selection screen will appear.
 
-![](/media/image14.png)
+![Recipe Summary and Selection](/media/screen_recipe_current.png)
 
-The buttons number 1 - 10 at the top of the screen allow previously saved recipes to be recalled. Press the New Recipe button in order to set up a new parameter set. The currently selected recipe’s parameters are used as the starting point for a new recipe to be created, so if you wish to change a parameter in a previously saved recipe, first press that recipe’s button, then press the New Recipe button. The New Recipe button can be password protected to control changes to the stored recipes. The procedure for doing this is described in Appendix B. Once you press the New Recipe button and enter the password if necessary, the following screen appears:
+The current recipe number and parameters are displayed. The available recipes cam be selected using the arrow botons ay the left am right sides of the screen. Once the desired recipe is displayed, press the Back arrow to return to the Main Menu screen.
 
-![](/media/image15.png)
+It is a good idea to check the Recipe Summary screen to ensure you are running the correct parameters for a given board type.
 
-This screen allows all of the parameters to be set. To change a parameter setting press the black box that contains the number you wish to change. The box should begin to flash showing that it is the currently selected parameter. Once you have the parameter you wish to change selected, press the Keypad button in order to change it.
+## PROGRAMMING A RECIPE
 
-The Keypad window will appear:
+The currently selected recipe’s parameters are used as the starting point for a new recipe to be created, so if you wish to change a parameter in a previously saved recipe, first select that recipe, then press the Edit button. 
 
-![](/media/image16.png)
+![Recipe Editing](/media/screen_recipe_edit.png)
 
-Type the new setting on the keypad and press the enter (↵) key. If you wish to erase the setting you just made press the clear (CLR) key. To change another parameter just press the back box surrounding it, enter its new setting, and press enter. You do not need to close the keypad window until all the changes you wish to make are accomplished. Once you are finished making changes, close the keypad window, and press the Next button on the Recipe Setup Screen. This brings up the following screen:
+This screen allows all of the parameters to be set. To change a parameter setting press the number you wish to change. The Keypad window will then appear.
 
-![](/media/image17.png)
+![Parameter Entry Keypad](/media/screen_recipe_keypad.png)
 
-You are now ready to save your changes in one of the ten available recipe locations. To save the recipe simply press the button numbered 1 - 10 which corresponds with the memory area you wish to use. The display will then switch back to the Main Menu screen, your recipe will be saved and also selected as the current recipe. If you don’t wish to save your changes simply press the Recipe Setup button to start over or the Main button to return to the Main Menu screen. The Password button allows you to setup the password protection on the recipe setup and is described in detail in Appendix B.
+Type the new setting on the keypad and press the enter (↵) key. If you wish to erase the setting you just made press the close (X) key. Use the arrow buttons to cycle through the available parameters. Enter the new settings for each parameter and press enter. You do not need to close the keypad window until all the changes you wish to make are accomplished. Once you are finished making changes, close the keypad window. Press the Save button to store the recipe in the controllers memory.
 
-Once you have returned to the Main Menu Screen you can check the currently selected recipe by pressing the Current Recipe button. The display switches to the following screen:
-
-![](/media/image18.png)
-
-The currently selected recipe number is displayed along with all of the parameters stored in memory. It is a good idea to check the Current Recipe screen to ensure you are running the correct parameters for a given board type.
+Once all recipe editing is complete, press the Back arrow button to return to the Main Menu screen.
 
 ## BOARD INSPECTION
 
@@ -74,9 +70,9 @@ Once the above parameters are set, the preheater and solder are up to temperatur
 
 Using the adjustable finger bars on the carrier, adjust the bars to just hold the board. Excessive finger pressure on the board could cause it to warp when it enters the solder. The board should be held just tight enough to prevent the board from falling out or floating off during soldering.
 
-Make sure the compressed air supply for the fluxer is turned on and that the pressure regulator is set correctly as described in section 4.3.
+Make sure the compressed air supply for the fluxer is turned on and that the pressure regulators are set correctly.
 
-Press the green START button located on the Main Menu screen. The cams should lower the carrier to the halfway point, the flux should start to foam, and after the programmed flux delay the carriage should begin to roll forward towards the fluxer. If this fails to happen press the red ABORT button. The carriage should return to the home position. Press the START button to try again.
+Press the green START button located on the Main Menu screen. The cams should home themselves and after the programmed flux delay the carriage should begin to roll forward towards the fluxer. If this fails to happen press the red ABORT button. The carriage should return to the home position. Press the START button to try again.
 
 > **Note:** Pressing the red ABORT button will not immediately stop the carriage, but rather it will allow the carriage to finish its direction of travel to a convenient preprogrammed point, before it returns to the home. This prevents the dross skimmer blade from getting caught.
 >
@@ -84,17 +80,17 @@ Press the green START button located on the Main Menu screen. The cams should lo
 
 Watch the entire process and check the following conditions:
 
-- Did the board seem to get adequately fluxed? (Look at the bottom of the board - raise fluxer height if necessary.)
+- Did the board seem to get adequately fluxed? (Look at the bottom of the board - adjust fluxer settings if necessary.)
 
 - Did the board dip evenly into the solder? (If necessary, level the solder pot.)
 
 - Did solder wick up to the topside of the board early in the solder dwell time? (If so, reduce dwell time.)
 
-- Is bridging present? (Increase solder dwell time and/or preheat time, decrease dwell time if using no-clean flux)
+- Is bridging present? (Increase solder dwell time and/or preheat time, decrease dwell time if using no-clean flux, reduce exit speed)
 
 - Is there excessive solder present? (Increase solder dwell time and/or preheat time, decrease dwell time if using NCF)
 
-- Are there solder voids? (Ensure adequate fluxing and coverage by increasing foam head height. However too much air flow destroys the foaming head.)
+- Are there solder voids? (Ensure adequate fluxing and coverage.)
 
 When using rosin and water soluble fluxes, the longer the board remains in the solder the less chance that bridging will occur. This is due to the fact that a longer dwell time increases the board temperature and therefore the amount of solder drainage. Boards which are inadequately heated tend to cool off while the solder is still draining, thereby allowing bridges to form.
 
@@ -164,6 +160,10 @@ A better method to determine optimum solder time for a new board is to locate th
 This is a relative number that determines the cam rotation speed during the exit sequence from the solder bath. In an MDS Soldering Machine, one end of the PCB is lifted first to allow for solder drainage, or peel-back, before the other end is lifted. This process is critical to prevent icicling or bridging. In an ALT Tinning Machine the two cams rotate together and therefore bring the components vertically out of the solder.
 
 The higher the exit speed number, the faster the PCB exit speed. You won’t notice any speed difference between adjoining settings, but there will be a quality difference. There is a noticeable difference between numbers several digits apart.
+
+## SPRAY FLUXER SETTINGS
+
+
 
 ## PROCESS CONSIDERATIONS
 
