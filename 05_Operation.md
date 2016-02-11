@@ -159,6 +159,35 @@ The higher the exit speed number, the faster the PCB exit speed. You won’t not
 
 ## SPRAY FLUXER SETTINGS
 
+The main factors that can be adjusted relating to the spray fluxer are the amount of flux deposited and the degree of flux atomization. These factors are adjusted using the air regulators located in the lower section of the spray fluxer.
+
+<!--img of regulators-->
+
+### Flux Amount
+
+The amount of flux applied by the spray nozzle is determined by the feed pressure of the liquid at the nozzle. The spray nozzle mixes the liquid with the atomizing air external to the nozzle and so the flux flow rate is controlled by the tank pressure independently of the atomizing air pressure. The flux and purge tank regulators control the pressure of the air in the tanks, in turn creating the liquid feed pressure.
+
+The easiest way to increase or decrease the amount of flux applied is to adjust this air pressure up and down. The table notes the flow rates at various pressures for the standard nozzle. 
+
+Pressure | Flow
+---------|--------
+3 psi    | 1.2 gph
+5 psi    | 1.6 gph
+10 psi   | 2.2 gph
+20 psi   | 3.1 gph
+
+In this application the relative difference is more important than the actual values. For example, changing the tank pressure from 3 to 10 psi almost doubles the flow rate.
+
+### Flux Atomization
+
+The degree of atomization is controlled by the leftmost air regulator. This will control how fine of droplets are sprayed on the board. A higher air pressure will create smaller droplets. The atomizing pressure range is dependent on the liquid feed pressure. As the liquid pressure is raised, a higher atomizing pressure is required to maintain the same droplet size. The table lists the standard ranges at various liquid pressures.
+
+Liquid Pressure | Atomizing Pressure
+----------------|-------------------
+3 psi           | 5 - 25 psi
+5 psi           | 10 - 30 psi
+10 psi          | 15 - 40 psi
+20 psi          | 25 - 60 psi
 
 
 ## PROCESS CONSIDERATIONS
