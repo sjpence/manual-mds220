@@ -32,7 +32,7 @@ The balance of this chapter is dedicated to descriptions of the main modules and
 
 The Power Module is located behind a sheet metal panel at the left end of the machine. It houses most of the machine’s high voltage components such as relays, fuses, drivers, etc.
 
-<!--Add picture of the power module-->
+![Power Module](/media/mds_power.jpg)
 
 The power module in the above picture is from an MDS-200. The power modules for the other **UNIT**DESIGN soldering and tinning machines have some components in different locations. Component drawings for specific machines are included as an attachment.
 
@@ -46,7 +46,7 @@ See the attachments for the wiring schematics.
 
 The carriage module is the only moving part on the **UNIT**DESIGN soldering and tinning machines. The carriage travels back and forth on the chassis rails, transporting the PCB’s through the various stages of fluxing, preheating, and soldering or tinning. The carriage connects to the machine via a retract cable assembly which plugs into the rear of the carriage.
 
-<!--Picture of the carriage-->
+![Carriage](/media/mds_carriage.jpg)
 
 ## CONTROL MODULE
 
@@ -59,17 +59,17 @@ The control module allows the operator to set, monitor and control the following
 - Preheat Time
 - etc.
 
-<!--Picture of Touchscreen enclosure-->
+![Control Module](/media/mds_hmi.jpg)
 
 ## SPRAY FLUXER
 
 The spray fluxer is split into two sections. The upper section is mounted to the machine frame between the rails that the carriage runs on. This section contains the atomizing spray nozzle as well as the actuator that cycles the nozzle under the boards in the carrier.
 
-<!--Picture of the upper spray fluxer-->
+![Upper Section of Spray Fluxer](/media/mds_spray_upper.jpg)
 
 The flux tank control section is mounted behind the doors in the lower portion of the machine frame. This section consitis of the flux and thinner tanks, as well as the air pressure control regulators. There is one regulator to control the pressure of each tank and a third regulator to control the atomizing air pressure. A selector valve allows either flux or thinner to be directed to the spray nozzle.
 
-<!--Pictures of the spray fluxer tanks-->
+![Lower Section of Spray Fluxers](/media/mds_spray_reg.jpg)
 
 ## SOLDER POT
 
@@ -81,7 +81,7 @@ When the solder pot is empty, the thermocouple well is exposed. It is parallel t
 
 The electrical box mounted below the solder pot contains the high voltage wires to the heater block. The automatic mechanical thermal limit switch is mounted in the electrical box along the gutter at the rear of the machine. This switch protects the solder pot from overheating in the event of an electrical malfunction. The setting on this switch is preset by the factory and SHOULD NOT BE ADJUSTED.
 
-<!--Picture of Solder Pot-->
+![Solder Pot](/media/mds_solder.jpg)
 
 ## PREHEATER
 
@@ -89,8 +89,7 @@ The electrical box mounted below the solder pot contains the high voltage wires 
 
 The preheating stage serves many functions during the soldering process. First, it prepares the flux by evaporating the volatiles and bringing it to its activation temperature. Next, by preheating the PCB before soldering we reduce the temperature difference between the board and the solder, and therefore diminish the potential for thermal shock of components and warpage of the board. Finally, by preheating the PCB we reduce the amount of heat needed during the soldering step to bring the solder joints to the wetting temperature. This allows for shorter dwell times in the solder and therefore quicker cycles.
 
-<!--Change preheater picture-->
-![Preheater](.\media\image1.png)
+![Preheater](/media/mds_preheat.jpg)
 
 ## CARRIER
 
@@ -100,4 +99,4 @@ The carrier is set on top of the cams found in the carriage module, and therefor
 
 Extra dual-fingered center bars (MDS-100/CB) may be added to the carrier to allow for the soldering of additional rows of PCBs.
 
-<!--Picture of carrier-->
+![Carrier with Single Row](/media/mds_carrier.jpg)

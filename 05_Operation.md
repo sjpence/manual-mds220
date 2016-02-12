@@ -161,7 +161,7 @@ The higher the exit speed number, the faster the PCB exit speed. You won’t not
 
 The main factors that can be adjusted relating to the spray fluxer are the amount of flux deposited and the degree of flux atomization. These factors are adjusted using the air regulators located in the lower section of the spray fluxer.
 
-<!--img of regulators-->
+![Spray Fluxer Regulators](/media/mds_spray_reg.jpg)
 
 ### Flux Amount
 
