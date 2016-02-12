@@ -19,11 +19,11 @@ It is a good idea to purge out the system at the end of the day to prevent and s
 
 1. Make sure the purge tank is full and the Purge Tank Pressure air regulator is set to the desired pressure. Turn the tank selection valve to the Purge Tank side.
 
-1. On the Main Menu, press the Spray Fluxer button, then press Manual along the left side to access the Spray Fluxer Manual Control sceen.
+1. On the Main Menu, press the Spray Fluxer button, then press Manual along the left side to access the Spray Fluxer Manual Control screen.
 
     ![Spray Fluxer Manual Control](/media/screen_sprayfluxer_manual.png)
 
-1. The Spray Fluxer Manual Control screen can be used to manually position the spray nozzle. When purging the spray nozzle should be placed near the center of travel to minimize the flux residue build up on the carraige plates or rails. A typical location for purging would be at 220 mm from home. Pressing the Goto button will cause the actuator to move the nozzle the programmed position.
+1. The Spray Fluxer Manual Control screen can be used to manually position the spray nozzle. When purging the spray nozzle should be placed near the center of travel to minimize the flux residue build up on the carriage plates or rails. A typical location for purging would be at 220 mm from home. Pressing the Goto button will cause the actuator to move the nozzle the programmed position.
 
 1. Once the nozzle is in position press the back arrow to return to the Main Menu.
 
@@ -39,4 +39,4 @@ It is a good idea to purge out the system at the end of the day to prevent and s
 
 1. Press the Atomizing Air toggle to turn off the air flow.
 
-The nozzle is now clear of flux and filled with the purge liquid. When the machine is going to be used again, repeat the procedure with the Tank Selection Valve set to the Flux Tank to refil the nozzle with the flux liquid.
+The nozzle is now clear of flux and filled with the purge liquid. When the machine is going to be used again, repeat the procedure with the Tank Selection Valve set to the Flux Tank to refill the nozzle with the flux liquid.

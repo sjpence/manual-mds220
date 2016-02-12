@@ -31,7 +31,7 @@
 
 1. Center punch the four stubs. Using a \#38 (or similar) drill bit, drill into the stub. Be careful not to drill into the aluminum plate! The “nyrod” stub should come out when the drill bit is removed. Some remaining pieces of the stub may need to be cleaned out with an X-acto blade or tweezers.
 
-1. Use a pair of pliers to start the “nyrod” into the hole. By twisting and pushing, you shoul be able to force the rod all the way into the hole until it seats. If it is loose, you may need to use a drop of glue to keep it in place.
+1. Use a pair of pliers to start the “nyrod” into the hole. By twisting and pushing, you should be able to force the rod all the way into the hole until it seats. If it is loose, you may need to use a drop of glue to keep it in place.
 
 1. Cut the rod, leaving about 1/16" protruding from the plate.
 
@@ -93,7 +93,7 @@ When a major change in heater (preheat or solder) set point is made (greater tha
 
 1. Make sure the heater being tuned is turned on using the toggle switches on the Main Menu.
 
-1. On the Main Menu, press the Settings button, then press Heaters along the left side to access the Autotuning Control sceen.
+1. On the Main Menu, press the Settings button, then press Heaters along the left side to access the Autotuning Control screen.
 
     ![Heater Autotuning](/media/screen_settings_heaters.png)
 

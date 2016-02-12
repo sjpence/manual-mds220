@@ -5,7 +5,7 @@
 
 There are an infinite variety of possible parameter sets for the **UNIT**DESIGN MDS-220 Soldering System.
 
-We will start with a generic parameter set which generally works well on most types of boards. We recommend the following parameters for water soluble (OA) and No-Clean Fluxes with lead based solder. For lead-free solders, use the solder temperature recommeded by the solder vendor for the specific alloy. NCFs require more dwell time at the preheat stage and less dwell time in the solder. A water carrier flux will take a longer preheat dwell than an alcohol based flux. The other parameters will be similar to the alcohol based version of that flux.
+We will start with a generic parameter set which generally works well on most types of boards. We recommend the following parameters for water-soluble (OA) and No-Clean Fluxes with lead based solder. For lead-free solders, use the solder temperature recommended by the solder vendor for the specific alloy. NCFs require more dwell time at the preheat stage and less dwell time in the solder. A water carrier flux will take a longer preheat dwell than an alcohol based flux. The other parameters will be similar to the alcohol based version of that flux.
 
   Parameter       | MDS-220 | MDS-220
   ----------------|---------| ------------
@@ -46,7 +46,7 @@ In order to view the parameters of the currently selected recipe or select a dif
 
 ![Recipe Summary and Selection](/media/screen_recipe_current.png)
 
-The current recipe number and parameters are displayed. The available recipes cam be selected using the arrow botons ay the left am right sides of the screen. Once the desired recipe is displayed, press the Back arrow to return to the Main Menu screen.
+The current recipe number and parameters are displayed. The available recipes cam be selected using the arrow buttons ay the left and right sides of the screen. Once the desired recipe is displayed, press the Back arrow to return to the Main Menu screen.
 
 It is a good idea to check the Recipe Summary screen to ensure you are running the correct parameters for a given board type.
 
@@ -92,9 +92,9 @@ Watch the entire process and check the following conditions:
 
 - Are there solder voids? (Ensure adequate fluxing and coverage.)
 
-When using rosin and water soluble fluxes, the longer the board remains in the solder the less chance that bridging will occur. This is due to the fact that a longer dwell time increases the board temperature and therefore the amount of solder drainage. Boards which are inadequately heated tend to cool off while the solder is still draining, thereby allowing bridges to form.
+When using rosin and water-soluble fluxes, the longer the board remains in the solder the less chance that bridging will occur. This is due to the fact that a longer dwell time increases the board temperature and therefore the amount of solder drainage. Boards which are inadequately heated tend to cool off while the solder is still draining, thereby allowing bridges to form.
 
-When using no-clean fluxes the opposite tends to be true. While the board is immersed in the solder, the fluxes are losing activity. Therefore the longer the boards remain in the solder the harder it is for the excess solder to drain away, causing bridging. This is why NCF solder dwell times tend to be shorter than those with rosin and water soluble fluxes.
+When using no-clean fluxes the opposite tends to be true. While the board is immersed in the solder, the fluxes are losing activity. Therefore the longer the boards remain in the solder the harder it is for the excess solder to drain away, causing bridging. This is why NCF solder dwell times tend to be shorter than those with rosin and water-soluble fluxes.
 
 One other area to consider is the mass of the components on the board. Boards with heavy components, such as transformers, need higher preheat and solder dwell times in order to form good solder joints. The high mass components require a greater heat input to bring them to the soldering temperature.
 
@@ -111,7 +111,7 @@ A specific explanation of the soldering parameters follows:
 
 *Parameter Range: 0 - 99 sec.*
 
-The flux delay is the amount of time that the machine waits before starting to move the carriage over the fluxer. This delay allows the spray nozzle atomising air supply yo build pressure before allowing the flux to spray. Typically this delay is 2-3 seconds.
+The flux delay is the amount of time that the machine waits before starting to move the carriage over the fluxer. This delay allows the spray nozzle atomizing air supply yo build pressure before allowing the flux to spray. Typically this delay is 2-3 seconds.
 
 ### Preheat Temperature Set Point
 
@@ -125,7 +125,7 @@ Conversely, you can reduce the preheat time by raising the preheat temperature. 
 
 *Parameter Range: 0 - 999 sec.*
 
-If alcohol based MIL-spec rosin fluxes are being used, the volatiles are easily removed with a 30 to 90 second preheat on an MDS-100, or a 20 to 50 second preheat on an MDS-200/210. Alcohol based water soluble fluxes require a similar preheat dwell time.
+If alcohol based MIL-spec rosin fluxes are being used, the volatiles are easily removed with a 30 to 90 second preheat on an MDS-100, or a 20 to 50 second preheat on an MDS-200/210. Alcohol based water-soluble fluxes require a similar preheat dwell time.
 
 No-clean fluxes require more preheat to activate the flux and to remove almost all the flux thinner. After the soldering process, very little residue should be left on the board. If excess flux residue is still on the board after soldering, more preheat dwell time or a higher preheat temperature is needed.
 
@@ -232,5 +232,5 @@ Most soldering problems are caused by contamination of the components or boards.
 
 ### SOLDER PURITY
 
-At **UNIT**DESIGN we recommend using a high purity solder for all operations. We also recommend having the solder bath analyzed at regular intervals to check for contamination. Avoid contaminants such as parts made of zinc or brass, and gold plated parts. The worst contaminants tend to be aluminum, cadmium and zinc.
+At **UNIT**DESIGN we recommend using a high purity solder for all operations. We also recommend having the solder bath analyzed at regular intervals to check for contamination. Avoid contaminants such as parts made of zinc or brass, and gold-plated parts. The worst contaminants tend to be aluminum, cadmium and zinc.
 

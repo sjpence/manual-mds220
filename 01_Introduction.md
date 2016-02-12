@@ -67,7 +67,7 @@ The spray fluxer is split into two sections. The upper section is mounted to the
 
 ![Upper Section of Spray Fluxer](/media/mds_spray_upper.jpg)
 
-The flux tank control section is mounted behind the doors in the lower portion of the machine frame. This section consitis of the flux and thinner tanks, as well as the air pressure control regulators. There is one regulator to control the pressure of each tank and a third regulator to control the atomizing air pressure. A selector valve allows either flux or thinner to be directed to the spray nozzle.
+The flux tank control section is mounted behind the doors in the lower portion of the machine frame. This section consists of the flux and thinner tanks, as well as the air pressure control regulators. There is one regulator to control the pressure of each tank and a third regulator to control the atomizing air pressure. A selector valve allows either flux or thinner to be directed to the spray nozzle.
 
 ![Lower Section of Spray Fluxers](/media/mds_spray_reg.jpg)
 

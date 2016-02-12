@@ -7,7 +7,7 @@
 
     ![Main Menu - Homing Required](/media/screen_mainmenu_homereq.png)
     
-1. Whenever the machine is powered on, the home position of the spray fluxer actuator needs to be set. At startup a popup will remind the operator. Press the OK button on the popup window. The display will shift to the Spray Fluxer Status screen.
+1. Whenever the machine is powered on, the home position of the spray fluxer actuator needs to be set. At startup a pop-up will remind the operator. Press the OK button on the pop-up window. The display will shift to the Spray Fluxer Status screen.
 
     ![Spray Fluxer Status](/media/screen_sprayfluxer_status.png)
     
@@ -40,7 +40,7 @@ In order to initial charge the solder pot and check the solder level, a initial 
     
     ![Recipe Editing](/media/screen_recipe_edit.png)
     
-1. Pressing the number displayed next to each parameter will cause the keypad popup to appear. They keypad can be used to edit the parameters. The left and right arrow keys can be used to cycle through all of the parameters diplayed. Minimum and maximum vaules are diplayed at the bottom of the keypad.
+1. Pressing the number displayed next to each parameter will cause the keypad pop-up to appear. They keypad can be used to edit the parameters. The left and right arrow keys can be used to cycle through all of the parameters displayed. Minimum and maximum values are displayed at the bottom of the keypad.
 
     ![Parameter Entry Keypad](/media/screen_recipe_keypad.png)
 
@@ -72,7 +72,7 @@ Once the solder pot is fully charged with solder (.075" - .100" from the top), y
 
 1. Take the PCB carrier and move the single finger bars to the maximum width possible by loosening the screws, sliding the bars outward, and then re-tightening. The fingers should be inclined inward. Place the PCB carrier on the carriage. You are now ready to run a test cycle through the system to confirm solder pot level.
 
-1. Press the Recipe button on the Main Menu. Confirm that the parameters match those programmed in the last section. The imposrtant parametrs for this test are the solder temperature and the solder dwell time. Then press the Back button to return.
+1. Press the Recipe button on the Main Menu. Confirm that the parameters match those programmed in the last section. The important parameters for this test are the solder temperature and the solder dwell time. Then press the Back button to return.
 
     > Note: The machine will not operate if the START button is not green, signifying that the solder is at the correct temperature. Also if the carriage is not at its home position the cycle will not start.
 
@@ -104,7 +104,7 @@ The next step is to fill and adjust the tanks and regulators in the lower sectio
 
 > CAUTION: Before opening the flux or purge tanks, be sure that the main air pressure to the machine has been turned off.
 
-1. Turn off the main air supply using the Main Air Reulator mounted to the rear of the machine or an external sutoff valve.
+1. Turn off the main air supply using the Main Air Regulator mounted to the rear of the machine or an external shutoff valve.
 
 1. Release the lid latches and open both tanks
 
@@ -118,7 +118,7 @@ The next step is to fill and adjust the tanks and regulators in the lower sectio
 
 1. Press the green START button to cycle the machine.
 
-1. Check that as the carraige passes over the fluxer the spray nozzle should cycle back and forth under the carriage. The flux or thinner and the atomizing air should flow during the fluxing process.
+1. Check that as the carriage passes over the fluxer the spray nozzle should cycle back and forth under the carriage. The flux or thinner and the atomizing air should flow during the fluxing process.
 
 1. Make sure the exhaust system is capturing any over-spray.
 
