@@ -60,7 +60,7 @@ This screen allows all of the parameters to be set. To change a parameter settin
 
 ![Parameter Entry Keypad](./media/screen_recipe_keypad.png)
 
-Type the new setting on the keypad and press the enter (↵) key. If you wish to erase the setting you just made press the close (X) key. Use the arrow buttons to cycle through the available parameters. Enter the new settings for each parameter and press enter. You do not need to close the keypad window until all the changes you wish to make are accomplished. Once you are finished making changes, close the keypad window. Press the Save button to store the recipe in the controllers memory.
+Type the new setting on the keypad and press the enter key. If you wish to erase the setting you just made press the close (X) key. Use the arrow buttons to cycle through the available parameters. Enter the new settings for each parameter and press enter. You do not need to close the keypad window until all the changes you wish to make are accomplished. Once you are finished making changes, close the keypad window. Press the Save button to store the recipe in the controllers memory.
 
 Once all recipe editing is complete, press the Back arrow button to return to the Main Menu screen.
 
