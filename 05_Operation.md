@@ -21,7 +21,7 @@ We will start with a generic parameter set which generally works well on most ty
 
 Using the touchscreen interface of the control module, the operator can set, change, store in memory or recall all of the soldering parameters described above. The touchscreen is the central operation point for all of the MDS Soldering and ALT Tinning Machines.
 
-![Main Menu - Solder Not At Temperature](./media/screen_mainmenu_notready.png)
+![Main Menu - Solder Not At Temperature](./media/screen_mainmenu_notready.png){ width=4.25in }
 
 Information displayed:
 - Currently Selected Recipe Number
@@ -44,7 +44,7 @@ Available Control Buttons:
 
 In order to view the parameters of the currently selected recipe or select a different recipe, press the Recipe button in the upper left corner of the Main Menu screen. The Recipe Summary and Selection screen will appear.
 
-![Recipe Summary and Selection](./media/screen_recipe_current.png)
+![Recipe Summary and Selection](./media/screen_recipe_current.png){ width=4.25in }
 
 The current recipe number and parameters are displayed. The available recipes cam be selected using the arrow buttons ay the left and right sides of the screen. Once the desired recipe is displayed, press the Back arrow to return to the Main Menu screen.
 
@@ -54,11 +54,11 @@ It is a good idea to check the Recipe Summary screen to ensure you are running t
 
 The currently selected recipe’s parameters are used as the starting point for a new recipe to be created, so if you wish to change a parameter in a previously saved recipe, first select that recipe, then press the Edit button. 
 
-![Recipe Editing](./media/screen_recipe_edit.png)
+![Recipe Editing](./media/screen_recipe_edit.png){ width=4.25in }
 
 This screen allows all of the parameters to be set. To change a parameter setting press the number you wish to change. The Keypad window will then appear.
 
-![Parameter Entry Keypad](./media/screen_recipe_keypad.png)
+![Parameter Entry Keypad](./media/screen_recipe_keypad.png){ width=4.25in }
 
 Type the new setting on the keypad and press the enter key. If you wish to erase the setting you just made press the close (X) key. Use the arrow buttons to cycle through the available parameters. Enter the new settings for each parameter and press enter. You do not need to close the keypad window until all the changes you wish to make are accomplished. Once you are finished making changes, close the keypad window. Press the Save button to store the recipe in the controllers memory.
 
@@ -161,7 +161,7 @@ The higher the exit speed number, the faster the PCB exit speed. You won’t not
 
 The main factors that can be adjusted relating to the spray fluxer are the amount of flux deposited and the degree of flux atomization. These factors are adjusted using the air regulators located in the lower section of the spray fluxer.
 
-![Spray Fluxer Regulators](./media/mds_spray_reg.jpg)
+![Spray Fluxer Regulators](./media/mds_spray_reg.jpg){ width=4.25in }
 
 ### Flux Amount
 
