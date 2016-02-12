@@ -5,15 +5,15 @@
 
 1. Turn the main power switch, located on the power module cover, to the ON position. The control module should power up and the following display should be visible on the touchscreen.
 
-    ![Main Menu - Homing Required](/media/screen_mainmenu_homereq.png)
+    ![Main Menu - Homing Required](./media/screen_mainmenu_homereq.png)
     
 1. Whenever the machine is powered on, the home position of the spray fluxer actuator needs to be set. At startup a pop-up will remind the operator. Press the OK button on the pop-up window. The display will shift to the Spray Fluxer Status screen.
 
-    ![Spray Fluxer Status](/media/screen_sprayfluxer_status.png)
+    ![Spray Fluxer Status](./media/screen_sprayfluxer_status.png)
     
 1. Press the Home button to send the spray fluxer to its home position. The actuator will retain its home position while it is powered on. Press the Back arrow in the upper left of the screen to return to the Main Menu.
 
-    ![Main Menu - Solder Not At Temperature](/media/screen_mainmenu_notready.png)
+    ![Main Menu - Solder Not At Temperature](./media/screen_mainmenu_notready.png)
 
     > In order for the carriage to run, the START button on the touchscreen must be green. The START button will change from gray to green once the solder pot reaches the set temperature the first time after it has been turned on. The ABORT button on the touchscreen will always bring the carriage back to the home position regardless of the current solder pot temperature. 
 
@@ -34,15 +34,15 @@ In order to initial charge the solder pot and check the solder level, a initial 
 
 1. Press the Recipe button in the upper left corner of the Main Menu screen. The Recipe Summary and Selection screen will appear.
 
-    ![Recipe Summary and Selection](/media/screen_recipe_current.png)
+    ![Recipe Summary and Selection](./media/screen_recipe_current.png)
 
 1. Press the Edit button at the bottom of the screen to change the Recipe parameters.
     
-    ![Recipe Editing](/media/screen_recipe_edit.png)
+    ![Recipe Editing](./media/screen_recipe_edit.png)
     
 1. Pressing the number displayed next to each parameter will cause the keypad pop-up to appear. They keypad can be used to edit the parameters. The left and right arrow keys can be used to cycle through all of the parameters displayed. Minimum and maximum values are displayed at the bottom of the keypad.
 
-    ![Parameter Entry Keypad](/media/screen_recipe_keypad.png)
+    ![Parameter Entry Keypad](./media/screen_recipe_keypad.png)
 
 1. When all parameters have been edited, press the enter key to close the window.
 
@@ -56,7 +56,7 @@ The solder pot holds about 150 lbs. (68 kg.) of solder, but only a fraction of t
 
 1. Place about 25 to 50 lbs. of solder bars into the pot, covering the bottom surface of the solder pot. Place them neatly and try to cover as much of the bottom surface as possible. CAUTION: DO NOT BUMP OR DENT THE THERMOCOUPLE WELL. This could cause an external leak or make the thermocouple difficult to remove.
 
-    ![Initial Charging of Solder Pot](/media/image6.png)
+    ![Initial Charging of Solder Pot](./media/image6.png)
 
 1. On the Main Menu, confirm that the set temperature under the solder label is the desired operating temperature. Press the toggle button underneath the solder label to enable the solder pot heaters. The actual solder temperature should begin to rise.
 
@@ -76,7 +76,7 @@ Once the solder pot is fully charged with solder (.075" - .100" from the top), y
 
     > Note: The machine will not operate if the START button is not green, signifying that the solder is at the correct temperature. Also if the carriage is not at its home position the cycle will not start.
 
-    ![Main Menu - Ready](/media/screen_mainmenu_ready.png)
+    ![Main Menu - Ready](./media/screen_mainmenu_ready.png)
 
 1. Press the green START button. If the START button is green and the unit does not operate, simply lift the end of the carriage and push slightly forward, then press the red ABORT button. This should automatically bring the carriage to the start or home position. If the unit will still not cycle, please refer to the Troubleshooting Section of the manual.
 
@@ -84,7 +84,7 @@ Once the solder pot is fully charged with solder (.075" - .100" from the top), y
 
 1. If the “V” sections don’t enter the solder, you need to add more solder. If they are not equally deep in the solder you need to re-level the system. Remember, the liquid solder is the ultimate level and you want to have it equidistant down from each pot edge. To re-level the machine, first level the frame, then the rails and finally level the solder pot. After re-leveling run the test again.
 
-    ![Correct Solder Level](/media/image7.png)
+    ![Correct Solder Level](./media/image7.png)
 
 Now you should run a practice scrap PCB to make the final test. 
 

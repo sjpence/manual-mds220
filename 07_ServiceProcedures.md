@@ -95,7 +95,7 @@ When a major change in heater (preheat or solder) set point is made (greater tha
 
 1. On the Main Menu, press the Settings button, then press Heaters along the left side to access the Autotuning Control screen.
 
-    ![Heater Autotuning](/media/screen_settings_heaters.png)
+    ![Heater Autotuning](./media/screen_settings_heaters.png)
 
 1. Press the toggle switch for the heater you wish to tune. Only perform one autotuning function at a time. If you wish to tune both the Solder Heater and the Preheater, tune the Solder Pot Heater first, then tune the Preheater.
 

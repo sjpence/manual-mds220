@@ -21,7 +21,7 @@ It is a good idea to purge out the system at the end of the day to prevent and s
 
 1. On the Main Menu, press the Spray Fluxer button, then press Manual along the left side to access the Spray Fluxer Manual Control screen.
 
-    ![Spray Fluxer Manual Control](/media/screen_sprayfluxer_manual.png)
+    ![Spray Fluxer Manual Control](./media/screen_sprayfluxer_manual.png)
 
 1. The Spray Fluxer Manual Control screen can be used to manually position the spray nozzle. When purging the spray nozzle should be placed near the center of travel to minimize the flux residue build up on the carriage plates or rails. A typical location for purging would be at 220 mm from home. Pressing the Goto button will cause the actuator to move the nozzle the programmed position.
 
@@ -29,7 +29,7 @@ It is a good idea to purge out the system at the end of the day to prevent and s
 
 1. On the Main Menu, press the Options button. The Override Options screen should appear.
 
-    ![Override Options](/media/screen_options_override.png)
+    ![Override Options](./media/screen_options_override.png)
     
 1. The Override Options screen contains controls to manually turn on the spray nozzle. Press the Atomizing Air toggle to turn on the airflow to the spray nozzle.
 
