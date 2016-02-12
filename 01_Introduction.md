@@ -1,3 +1,8 @@
+---
+title: Setup, Operation and Maintenance Manual - MDS-220
+author: Unit Design, Inc.
+date: January 2016
+...
 
 # INTRODUCTION
 
