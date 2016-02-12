@@ -23,15 +23,15 @@ Filtered and dried, 90-120 psi, intermittent during cycle)
 ## MACHINE SPECIFICATIONS
 
 
-  Parameter                  | MDS-100   | MDS-200   | MDS-210   | MDS-220   | ALT-100   | ALT-200
-  ---------------------------|-----------|-----------|-----------|-----------|-----------|----------
-  POWER (208-240VAC, 1PH)    | 23 A      | 45 A      | 45 A      | 45 A      | 23 A      | 45 A
-  SIZE (LxWxH) (in)          | 60x30x48  | 87x30x48  | 87x30x48  | 87x30x48  | 60x30x48  | 87x30x48
-  WEIGHT (lbs) – Inc. Solder | 550       | 750       | 750       | 750       | 550       | 750
-  SOLDER CAPACITY (lb)       | 150       | 150       | 150       | 150       | 150       | 150
-  MAX LEAD LENGTH            | 3/8”      | 3/8”      | 1 ½”      | 1 ½”      | 1 ¾”      | 1 ¾”
-  AIR SUPPLY (cfm)           | 40        | 40        | 40        | 5         | 40 opt.   | 40 opt.
-  MAX SOLDER TEMP            | 600F      | 600F      | 600F      | 600F      | 600F      | 600F
+  Parameter                  | MDS-200   | MDS-210   | MDS-220   
+  ---------------------------|-----------|-----------|-----------
+  POWER (208-240VAC, 1PH)    | 45 A      | 45 A      | 45 A      
+  SIZE (LxWxH) (in)          | 87x30x48  | 87x30x48  | 87x30x48  
+  WEIGHT (lbs) – Inc. Solder | 750       | 750       | 750       
+  SOLDER CAPACITY (lb)       | 150       | 150       | 150       
+  MAX LEAD LENGTH            | 3/8”      | 1 ½”      | 1 ½”      
+  AIR SUPPLY (cfm)           | 40        | 40        | 5         
+  MAX SOLDER TEMP            | 600F      | 600F      | 600F      
 
 ## VENTILATION
 
