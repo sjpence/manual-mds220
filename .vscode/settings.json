@@ -1,4 +1,11 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "editor.wrappingColumn": 105
+    // Controls how lines should wrap. Can be:
+    //  - 'off' (disable wrapping),
+    //  - 'on' (viewport wrapping),
+    //  - 'wordWrapColumn' (wrap at `editor.wordWrapColumn`) or
+    //  - 'bounded' (wrap at minimum of viewport and `editor.wordWrapColumn`).
+    "editor.wordWrap": "wordWrapColumn",
+    
+    "editor.wordWrapColumn": 105
 }
