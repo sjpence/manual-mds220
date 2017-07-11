@@ -15,6 +15,21 @@
 
 1. To replace, reverse procedure.
 
+## AIRSTONE REPLACEMENT (MDS-200)
+
+1. Disconnect tube connecting bulkhead fitting (red collar) to the flux tank. This should be done to protect the regulator.
+
+1. Disconnect airstone tube from fitting on inside wall of flux tank.
+
+1. Holding the airstone tube and the foam funnel, lift and invert the funnel.
+
+1. Lift tubing end of airstone about two inches above the funnel. Be careful not to bend/break the fitting.
+
+1. Press the other end of the airstone out of the funnel.
+
+1. To Replace, reverse procedure. Be sure not to touch the body of the airstone with your bare fingers, as body oil will clog the airstone’s pores.
+
+
 ## SKIMMER BLADE REPLACEMENT
 
 1. Push skimmer blade toward the back of the machine, compressing the spring until other end can be removed.
