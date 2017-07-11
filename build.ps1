@@ -1,4 +1,4 @@
-$manual = "MAN-MDS220-201601.pdf"
+$manual = "MAN-MDS200-201707.pdf"
 
 $files = gci *.md | %{$_.FullName}
 
