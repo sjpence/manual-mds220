@@ -11,7 +11,15 @@ Since the carriage is self-propelled (via a drive wheel system), dried flux, sol
 
 Before each use, be sure to empty the water trap located below the main air pressure regulator. Simply twist the valve underneath the bowl counterclockwise to empty the water trap.
 
-## SPRAY FLUXER PURGE
+## DRIP PANS
+
+A lining of aluminum foil inside of the drip pans will make cleaning them much easier.
+
+## FLUX TANK COVER (MDS-200)
+
+Before replacing the flux tank cover at the end of a shift, make sure that the tank edge and matching cover edge are both clean. Most fluxes are quite sticky and putting the cover on a dirty tank could cause problems when attempting to remove the cover later.
+
+## SPRAY FLUXER PURGE (MDS-220)
 
 The spray fluxer system is equipped with a purge function, which will use the flux thinner to displace any flux remaining in the upper section of the fluxer and from the internal passages of the spray nozzle. The spray nozzle is equipped with a clean out needle which will normally keep flux from building up at the spray nozzle orifice. Every time the spray valve cycles on and off the needle removes flux build up and keeps the nozzle from dripping.
 
