@@ -3,19 +3,19 @@
 
 ## PROCESS PARAMETERS
 
-There are an infinite variety of possible parameter sets for the **UNIT**DESIGN MDS-220 Soldering System.
+There are an infinite variety of possible parameter sets for the **UNIT**DESIGN MDS Soldering Systems.
 
 We will start with a generic parameter set which generally works well on most types of boards. We recommend the following parameters for water-soluble (OA) and No-Clean Fluxes with lead based solder. For lead-free solders, use the solder temperature recommended by the solder vendor for the specific alloy. NCFs require more dwell time at the preheat stage and less dwell time in the solder. A water carrier flux will take a longer preheat dwell than an alcohol based flux. The other parameters will be similar to the alcohol based version of that flux.
 
-  Parameter       | MDS-220 | MDS-220
-  ----------------|---------| ------------
-  Flux Type       | OA      | Low-Solids
-  Flux Delay      | 2 s     | 2 s
-  Preheat SP      | 650 °F  | 650 °F
-  Preheat Dwell   | 25 s    | 30 s
-  Solder SP       | 500 °F  | 500 °F
-  Solder Dwell    | 3.0 s   | 1.5 s
-  Exit Speed      | 12      | 18
+  Parameter       | MDS-200 | MDS-200 | MDS-200    | MDS-220 | MDS-220    
+  ----------------|---------|---------|------------|---------|------------
+  Flux Type       | Rosin   | OA      | Low-Solids | OA      | Low-Solids
+  Flux Delay      | 5 s     | 5 s     | 10 s       | 2 s     | 2 s        
+  Preheat SP      | 650 °F  | 650 °F  | 650 °F     | 650 °F  | 650 °F  
+  Preheat Dwell   | 20 s    | 25 s    | 30 s       | 25 s    | 30 s
+  Solder SP       | 500 °F  | 500 °F  | 500 °F     | 500 °F  | 500 °F
+  Solder Dwell    | 3.5 s   | 3.0 s   | 1.5 s      | 3.0 s   | 1.5 s
+  Exit Speed      | 12      | 12      | 18         | 12      | 18
 
 ## OPERATOR INTERFACE OVERVIEW
 
@@ -36,7 +36,7 @@ Available Control Buttons:
 - **Preheat On/Off** - Turns on and off the Radiant Panel Preheater.
 - **Solder On/Off** - Turns on and off the Solder Pot heater.
 - **Recipe: #** - Switches to the Recipe Summary and Selection screen.
-- **Spray Fluxer** - Switches to the Spray Fluxer screen to set spray fluxer parameters.
+- **Spray Fluxer** - Switches to the Spray Fluxer screen to set spray fluxer parameters. (MDS-220)
 - **Settings** - Switches to the Settings screen to change certain machine settings.
 - **Options** - Switches to the Options screen in order to manually trigger devices and check sensor status.
 
@@ -111,7 +111,7 @@ A specific explanation of the soldering parameters follows:
 
 *Parameter Range: 0 - 99 sec.*
 
-The flux delay is the amount of time that the machine waits before starting to move the carriage over the fluxer. This delay allows the spray nozzle atomizing air supply yo build pressure before allowing the flux to spray. Typically this delay is 2-3 seconds.
+The flux delay is the amount of time that the machine waits before starting to move the carriage over the fluxer. With a foam fluxer this gives time for the foam head to build up. On the MDS-220 this delay allows the spray nozzle atomizing air supply to build pressure before allowing the flux to spray. Typically this delay is 2-3 seconds.
 
 ### Preheat Temperature Set Point
 
@@ -157,7 +157,7 @@ This is a relative number that determines the cam rotation speed during the exit
 
 The higher the exit speed number, the faster the PCB exit speed. You won’t notice any speed difference between adjoining settings, but there will be a quality difference. There is a noticeable difference between numbers several digits apart.
 
-## SPRAY FLUXER SETTINGS
+## SPRAY FLUXER  (MDS-220)
 
 The main factors that can be adjusted relating to the spray fluxer are the amount of flux deposited and the degree of flux atomization. These factors are adjusted using the air regulators located in the lower section of the spray fluxer.
 
