@@ -1,7 +1,7 @@
 
 # INITIAL START-UP
 
-## SET UP START POSITION
+## SET UP SPRAY FLUXER HOME POSITION (MDS-220)
 
 1. Turn the main power switch, located on the power module cover, to the ON position. The control module should power up and the following display should be visible on the touchscreen.
 
@@ -13,9 +13,11 @@
     
 1. Press the Home button to send the spray fluxer to its home position. The actuator will retain its home position while it is powered on. Press the Back arrow in the upper left of the screen to return to the Main Menu.
 
-    ![Main Menu - Solder Not At Temperature](./media/screen_mainmenu_notready.png){ width=4.25in }
+## SET UP START POSITION
 
-    > In order for the carriage to run, the START button on the touchscreen must be green. The START button will change from gray to green once the solder pot reaches the set temperature the first time after it has been turned on. The ABORT button on the touchscreen will always bring the carriage back to the home position regardless of the current solder pot temperature. 
+In order for the carriage to run, the START button on the touchscreen must be green. The START button will change from gray to green once the solder pot reaches the set temperature the first time after it has been turned on. The ABORT button on the touchscreen will always bring the carriage back to the home position regardless of the current solder pot temperature.
+
+![Main Menu - Solder Not At Temperature](./media/screen_mainmenu_notready.png){ width=4.25in }
 
 1. Press the red ABORT button on the touchscreen. The carriage will now move to the home position, which is at the extreme left end of the stainless steel rails.
 
@@ -23,7 +25,7 @@
 
 In order to initial charge the solder pot and check the solder level, a initial test program will need to be programmed. The desired solder temperature of the solder alloy being used will be required when setting up the recipe. Here is the test recipe using lead solder.
 
-  Parameter       | MDS-220 
+  Parameter       | MDS-200/220 
   ----------------|---------
   Flux Delay      | 2 s     
   Preheat Dwell   | 10 s    
@@ -94,7 +96,40 @@ Now you should run a practice scrap PCB to make the final test.
 
 If the machine level is still off, re-level the frame, rails and/or solder pot. Again, make sure the solder level is equal on all four sides of the solder pot to avoid the possibility of solder spillage at some future time.
 
-## FILL AND ADJUST THE SPRAY FLUX SYSTEM
+## FILL AND ADJUST FOAM FLUX TANK (MDS-200)
+
+Now that the solder is melted, the solder pot is leveled and the solder level is correct, you may fill and adjust the foam flux tank.
+
+Remove the carrier from the carriage. Using a foaming type flux, fill the flux tank with 1½ - 1¾ gallons of flux. The flux level should be about one inch below the weld line on the foam funnel.
+
+> CAUTION: Be sure that the external Drain hose is attached to the hose clips on the outside wall of the flux tank to avoid spills.
+
+1. Once the flux tank is full, be sure that the air hose is connected between the fluxer and the bulkhead fitting (as described in the installation section of this manual).
+
+1. Attach an air supply line to the fitting located next to the electrical box on the right rear panel of the machine.
+
+1. Turn the flux system regulator, the left of the two regulators located behind the left set of doors, completely counter-clockwise (off). 
+
+1. On the Main Menu screen on the operator interface press the Options button. The display will change to the Options screen. Select Override on the left menu. This displays a screen that allows the flux system and air knife to be turned on manually to facilitate setup. Press the button for the flux system and the air solenoid will open allowing air to flow to the airstone.
+
+    ![Options - Override](./media/screen-options-override-mds200.png){ width=4.25in }
+
+1. Slowly turn the flux system regulator clockwise until the gauge displays 10-15 psi.
+
+1. The flux should now be foaming. Note: Not all fluxes are alike. Some require a low air flow while others require high air flow. You should see at least a ½" foam height above the foam funnel. You may need to adjust the flux system regulator to achieve these conditions.
+
+1. You are now ready to adjust and level the fluxer. Use the T-handled Allen wrench, included with the machine, to raise the foam fluxer. Raise the fluxer as high as possible while not restricting the leads beneath your boards. It may be helpful to place a board into the carrier.
+
+1. Once you are finished setting up the flux tank press the OFF button on the Override Screen to shut off the foam fluxer.
+
+1. Once the fluxer has been mechanically raised to the approximate position, the height of the carrier as it passes over the foam fluxer can be adjusted using the control system. On the Main Menu screen, press the Settings button and then select Cam Motor on the left menu.
+
+    ![Settings - Cam Motor](./media/screen-settings-cam-motor-mds200.png){ width=4.25in }
+
+1. The parameter "Cam Rotation - Flux" controls how far the cams rotate before passing over the fluxer. This can be used to provide fine adjustment of the height of the carrier during the application of flux. This parameter ranges from 0 (cams fully up) to 26250 (cams fully down). Typically it will be around 12000 - 14000 steps.
+
+
+## FILL AND ADJUST THE SPRAY FLUX SYSTEM (MDS-220)
 
 Now that the solder is melted, the solder pot is leveled and the solder level is correct, you may fill and adjust the spray flux system.
 
