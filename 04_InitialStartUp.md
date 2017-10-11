@@ -112,7 +112,7 @@ Remove the carrier from the carriage. Using a foaming type flux, fill the flux t
 
 1. On the Main Menu screen on the operator interface press the Options button. The display will change to the Options screen. Select Override on the left menu. This displays a screen that allows the flux system and air knife to be turned on manually to facilitate setup. Press the button for the flux system and the air solenoid will open allowing air to flow to the airstone.
 
-    ![Options - Override](./media/screen-options-override-mds200.png){ width=4.25in }
+    ![Options - Override](./media/screen-options-override-mds200.PNG){ width=4.25in }
 
 1. Slowly turn the flux system regulator clockwise until the gauge displays 10-15 psi.
 
@@ -124,7 +124,7 @@ Remove the carrier from the carriage. Using a foaming type flux, fill the flux t
 
 1. Once the fluxer has been mechanically raised to the approximate position, the height of the carrier as it passes over the foam fluxer can be adjusted using the control system. On the Main Menu screen, press the Settings button and then select Cam Motor on the left menu.
 
-    ![Settings - Cam Motor](./media/screen-settings-cam-motor-mds200.png){ width=4.25in }
+    ![Settings - Cam Motor](./media/screen-settings-cam-motor-mds200.PNG){ width=4.25in }
 
 1. The parameter "Cam Rotation - Flux" controls how far the cams rotate before passing over the fluxer. This can be used to provide fine adjustment of the height of the carrier during the application of flux. This parameter ranges from 0 (cams fully up) to 26250 (cams fully down). Typically it will be around 12000 - 14000 steps.
 
